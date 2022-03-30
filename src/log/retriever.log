@@ -1,0 +1,42 @@
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-16T19:27:08+08:00"}
+{"EntName":"","context":"zichengqu is not an Enterprise member _ Name is null","isEntUser":0,"issue":{"issueID":"I4Y60N","issueAction":"open","issueUser":{"issueUserName":"ZichengQu","issueUserID":"zichengqu","isEntUser":0,"isOrgUser":0},"issueTime":"2022-03-16T19:27:07+08:00","issueUpdateTime":"2022-03-16T19:27:07+08:00","issueAssignee":"","issueLabel":null,"issueTitle":"354345","issueContent":"345354","repoInfo":{"org":"zichengqu","repo":"TestSunmao","ent":""}},"issueID":"I4Y60N","level":"info","msg":"info log","time":"2022-03-16T19:27:08+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-16T19:33:09+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-16T19:33:09+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-16T19:33:09+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-16T19:33:09+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-16T19:33:25+08:00"}
+{"EntName":"","context":"zichengqu is not an Enterprise member _ Name is null","isEntUser":0,"issue":{"issueID":"I4Y614","issueAction":"open","issueUser":{"issueUserName":"ZichengQu","issueUserID":"zichengqu","isEntUser":0,"isOrgUser":0},"issueTime":"2022-03-16T19:33:25+08:00","issueUpdateTime":"2022-03-16T19:33:25+08:00","issueAssignee":"","issueLabel":null,"issueTitle":"532453","issueContent":"3543543","repoInfo":{"org":"zichengqu","repo":"TestSunmao","ent":""}},"issueID":"I4Y614","level":"info","msg":"info log","time":"2022-03-16T19:33:25+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-16T19:33:44+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-16T19:52:24+08:00"}
+{"EntName":"","context":"zichengqu is not an Enterprise member _ Name is null","isEntUser":0,"issue":{"issueID":"I4Y62U","issueAction":"open","issueUser":{"issueUserName":"ZichengQu","issueUserID":"zichengqu","isEntUser":0,"isOrgUser":0},"issueTime":"2022-03-16T19:52:23+08:00","issueUpdateTime":"2022-03-16T19:52:23+08:00","issueAssignee":"","issueLabel":null,"issueTitle":"5463245","issueContent":"654654","repoInfo":{"org":"zichengqu","repo":"TestSunmao","ent":""}},"issueID":"I4Y62U","level":"info","msg":"info log","time":"2022-03-16T19:52:24+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-16T19:53:19+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-16T19:55:26+08:00"}
+{"EntName":"","context":"zichengqu is not an Enterprise member _ Name is null","isEntUser":0,"issue":{"issueID":"I4Y634","issueAction":"open","issueUser":{"issueUserName":"ZichengQu","issueUserID":"zichengqu","isEntUser":0,"isOrgUser":0},"issueTime":"2022-03-16T19:55:26+08:00","issueUpdateTime":"2022-03-16T19:55:26+08:00","issueAssignee":"","issueLabel":null,"issueTitle":"3254","issueContent":"3254","repoInfo":{"org":"zichengqu","repo":"TestSunmao","ent":""}},"issueID":"I4Y634","level":"info","msg":"info log","time":"2022-03-16T19:55:26+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-16T19:56:01+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-16T20:02:23+08:00"}
+{"EntName":"","context":"zichengqu is not an Enterprise member _ Name is null","isEntUser":0,"issue":{"issueID":"I4Y63Q","issueAction":"open","issueUser":{"issueUserName":"ZichengQu","issueUserID":"zichengqu","isEntUser":0,"isOrgUser":0},"issueTime":"2022-03-16T20:02:22+08:00","issueUpdateTime":"2022-03-16T20:02:22+08:00","issueAssignee":"","issueLabel":null,"issueTitle":"3543","issueContent":"354","repoInfo":{"org":"zichengqu","repo":"TestSunmao","ent":""}},"issueID":"I4Y63Q","level":"info","msg":"info log","time":"2022-03-16T20:02:23+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-16T20:03:37+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-16T20:05:23+08:00"}
+{"EntName":"","context":"zichengqu is not an Enterprise member _ Name is null","isEntUser":0,"issue":{"issueID":"I4Y63Z","issueAction":"open","issueUser":{"issueUserName":"ZichengQu","issueUserID":"zichengqu","isEntUser":0,"isOrgUser":0},"issueTime":"2022-03-16T20:05:23+08:00","issueUpdateTime":"2022-03-16T20:05:23+08:00","issueAssignee":"","issueLabel":null,"issueTitle":"586742","issueContent":"453245","repoInfo":{"org":"zichengqu","repo":"TestSunmao","ent":""}},"issueID":"I4Y63Z","level":"info","msg":"info log","time":"2022-03-16T20:05:23+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-29T20:01:52+08:00"}
+{"EntName":"","context":"zichengqu is not an Enterprise member _ Name is null","isEntUser":0,"issue":{"issueID":"I5073M","issueAction":"open","issueUser":{"issueUserName":"ZichengQu","issueUserID":"zichengqu","isEntUser":0,"isOrgUser":0},"issueTime":"2022-03-29T20:01:51+08:00","issueUpdateTime":"2022-03-29T20:01:51+08:00","issueAssignee":"","issueLabel":[{"labelName":"bug","labelDesciption":"bug"}],"issueTitle":"555","issueContent":"555","repoInfo":{"org":"zichengqu","repo":"test","ent":""}},"issueID":"I5073M","level":"info","msg":"info log","time":"2022-03-29T20:01:52+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-30T12:42:33+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:42:33+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:42:33+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:42:33+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-30T12:42:33+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-30T12:44:43+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:44:43+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:44:43+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:44:43+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-30T12:44:43+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-30T12:45:58+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:45:58+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:45:58+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:45:58+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-30T12:45:58+08:00"}
+{"context":"gitee hook success","level":"info","msg":"info log","time":"2022-03-30T12:48:56+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:48:56+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:48:56+08:00"}
+{"context":"Send issue error, please check whether the apiUrl is active","level":"info","msg":"info log","time":"2022-03-30T12:48:56+08:00"}
+{"context":"Send issue success","level":"info","msg":"info log","time":"2022-03-30T12:48:56+08:00"}

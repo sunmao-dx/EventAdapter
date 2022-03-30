@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: back
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      component: back
+  template:
+    metadata:
+      labels:
+        component: back
+    spec:
+      containers:
+        - name: back
+          image: robekeane/event-retriever:0.01
+          ports:
+            - containerPort: 8001
