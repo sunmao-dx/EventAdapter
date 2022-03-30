@@ -2,20 +2,18 @@ package main
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
-
-	// "os"
+	"strings"
 
 	gitee_utils "gitee.com/sunmao-dx/strategy-executor/src/gitee-utils"
 	"github.com/sirupsen/logrus"
 )
 
-var eventTypeMap map[string]string
+// var eventTypeMap map[string]string
 
 func ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Event received.")
@@ -37,11 +35,8 @@ func ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	strApi, ok := eventTypeMap[eventType]
-	if ok {
-		// strApi := os.Getenv("api_url")
-		// strApi := "http://localhost:8001"
-
+	strApi := os.Getenv(strings.Replace(eventType, " ", "_", -1))
+	if len(strApi) != 0 {
 		_, err := sendRequest(r.Header, payload, strApi)
 
 		if err != nil {
@@ -58,24 +53,45 @@ func ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// strApi, ok := eventTypeMap[eventType]
+	// if ok {
+	// 	// strApi := os.Getenv(eventType)
+	// 	// strApi := "http://localhost:8001"
+
+	// 	_, err := sendRequest(r.Header, payload, strApi)
+
+	// 	if err != nil {
+	// 		gitee_utils.LogInstance.WithFields(logrus.Fields{
+	// 			"context": "Send " + eventType + " problem",
+	// 		}).Info("info log")
+	// 		fmt.Println(err.Error())
+	// 	}
+	// 	gitee_utils.LogInstance.WithFields(logrus.Fields{
+	// 		"context": "Send " + eventType + " success",
+	// 	}).Info("info log")
+	// } else {
+	// 	fmt.Println(eventType + " does not exist, please check again")
+	// 	return
+	// }
+
 }
 
-func makeMapfromJson(filePath string) {
-	f, err := os.Open(filePath)
-	if err != nil {
-		fmt.Println("open file err = ", err)
-		return
-	}
+// func makeMapfromJson(filePath string) {
+// 	f, err := os.Open(filePath)
+// 	if err != nil {
+// 		fmt.Println("open file err = ", err)
+// 		return
+// 	}
 
-	defer f.Close()
+// 	defer f.Close()
 
-	// eventTypeMap := make(map[string]string)
-	decoder := json.NewDecoder(f)
-	err = decoder.Decode(&eventTypeMap)
-	if err != nil {
-		fmt.Println("json decode has error: ", err)
-	}
-}
+// 	// eventTypeMap := make(map[string]string)
+// 	decoder := json.NewDecoder(f)
+// 	err = decoder.Decode(&eventTypeMap)
+// 	if err != nil {
+// 		fmt.Println("json decode has error: ", err)
+// 	}
+// }
 
 func sendRequest(header http.Header, payload []byte, apiUrl string) (string, error) {
 	req, err := http.NewRequest("POST", apiUrl, bytes.NewBuffer(payload))
@@ -109,9 +125,9 @@ func sendRequest(header http.Header, payload []byte, apiUrl string) (string, err
 }
 
 func main() {
-	filePath := os.Getenv("filePath")
-	// filePath := "src/config.json"
-	makeMapfromJson(filePath)
+	// filePath := os.Getenv("filePath")
+	// // filePath := "src/config.json"
+	// makeMapfromJson(filePath)
 
 	http.HandleFunc("/", ServeHTTP)
 	http.ListenAndServe(":8000", nil)
