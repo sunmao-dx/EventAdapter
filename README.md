@@ -1,4 +1,4 @@
-# EventRetriever
+# EventAdapter
 
 #### Intro
 EventRetriever is a gitee event spider for datacache.
