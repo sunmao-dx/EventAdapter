@@ -1,4 +1,4 @@
 {
-    "Issue Hook": "http://localhost:8001",
-    "Note Hook": "http://localhost:8002"
+    "Issue Hook": "http://localhost:9103",
+    "Note Hook": "http://localhost:9104"
 }
